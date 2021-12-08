@@ -20,13 +20,13 @@
         <div class=navMenuLayout>
             <div class=navDoctorLayout><span class="navDoctorDesign"><a href="/doctor.html"
                         style="color: #fff; text-decoration: none;">Doctors</a></span></div>
-            <div class=nav_bar_12_21><span class="medical_records_11_27"><a href="/patients.html"
+            <div class=navPatientsLayout><span class="navPatientsDesign"><a href="/patients.html"
                         style="color: #fff; text-decoration: none;">Patients</a></span></div>
-            <div class=nav_bar_12_22><span class="medical_records_12_11"><a href="/addpatients.html"
+            <div class=navAddPatientsLayout><span class="navAddPatientsDesign"><a href="/addpatients.html"
                         style="color: #fff; text-decoration: none;">+ Patients</a></span></div>
-            <div class=nav_bar_12_23><span class="medical_records_12_13"><a href="/pharmacy.html"
+            <div class=navAddPharmacyLayout><span class="navAddPharmacyDesign"><a href="/pharmacy.html"
                         style="color: #fff; text-decoration: none;">Pharmacy</a></span></div>
-            <div class=nav_bar_12_24>
+            <div class=topAppointmentButtonLayout>
                 <div class=topAppointmentButtonDesign><span class="topAppointmentButton"><a href="/appointment.html"
                     style="color: #fff; text-decoration: none;">APPOINTMENT</a></span></div>
             </div>
