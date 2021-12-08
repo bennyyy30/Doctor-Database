@@ -79,7 +79,7 @@
   letter-spacing: 2;
 }
 
-.nav_bar_12_21 {
+.navPatientsLayout {
   width: 114px;
   height: 47px;
   position: absolute;
@@ -87,7 +87,7 @@
   top: 12px;
 }
 
-.medical_records_11_27 {
+.navPatientsDesign {
   color: rgba(255, 255, 255, 1);
   width: 89px;
   height: 22px;
@@ -100,7 +100,7 @@
   letter-spacing: 2;
 }
 
-.nav_bar_12_22 {
+.navAddPatientsLayout {
   width: 133px;
   height: 47px;
   position: absolute;
@@ -108,7 +108,7 @@
   top: 12px;
 }
 
-.medical_records_12_11 {
+.navAddPatientsDesign {
   color: rgba(255, 255, 255, 1);
   width: 108px;
   height: 22px;
@@ -121,7 +121,7 @@
   letter-spacing: 2;
 }
 
-.nav_bar_12_23 {
+.navAddPharmacyLayout {
   width: 134px;
   height: 47px;
   position: absolute;
@@ -129,7 +129,7 @@
   top: 12px;
 }
 
-.medical_records_12_13 {
+.navAddPharmacyDesign {
   color: rgba(255, 255, 255, 1);
   width: 109px;
   height: 22px;
@@ -142,7 +142,7 @@
   letter-spacing: 2;
 }
 
-.nav_bar_12_24 {
+.topAppointmentButtonLayout {
   width: 211px;
   height: 72px;
   position: absolute;
