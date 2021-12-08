@@ -13,12 +13,12 @@
 <body>
     <div class=home>
         <div class="background"></div>
-        <div class=frame_6_12_59>
-            <div class=frame_6_12_60><span class="medical_records_12_61"><a href="/appointment.html"
+        <div class=midAppointmentButtonLayout>
+            <div class=midAppointmentButtonDesign><span class="midAppointmentButton"><a href="/appointment.html"
                 style="color: #fff; text-decoration: none;">APPOINTMENT</a></span></div>
         </div>
-        <div class=nav_nav_menu_12_62>
-            <div class=nav_bar_12_20><span class="medical_records_11_23"><a href="/doctor.html"
+        <div class=navMenuLayout>
+            <div class=navDoctorLayout><span class="navDoctorDesign"><a href="/doctor.html"
                         style="color: #fff; text-decoration: none;">Doctors</a></span></div>
             <div class=nav_bar_12_21><span class="medical_records_11_27"><a href="/patients.html"
                         style="color: #fff; text-decoration: none;">Patients</a></span></div>
