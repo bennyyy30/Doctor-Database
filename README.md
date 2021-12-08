@@ -1,2 +1,8 @@
 # Project332
-Massimo Villareal Benson Lee Lisa Hong
+
+
+
+Authors:
+Benson Lee
+Lisa Hong
+Massimo Villareal
