@@ -31,7 +31,8 @@
                     style="color: #fff; text-decoration: none;">APPOINTMENT</a></span></div>
             </div>
         </div>
-        <div class="tool"></div><span class="DocOffice">DocOffice</span>
+        <div class="tool"></div><span class="DocOffice"><a href="/index.html"
+            style="color: #fff; text-decoration: none;">DocOffice</a></span>
 
         <div class=slogan><span class="sloganDesign">Health Equity,
                 Always. <br></br>
