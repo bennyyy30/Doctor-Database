@@ -5,13 +5,63 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DocOffice</title>
+    <title>Appointment</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class=home>
+    <!--Form-->
+    <form class="myForm" method="get" enctype="application/x-www-form-urlencoded"
+        action="/html/codes/html_form_handler.cfm">
+        <p>
+            <label>Name
+                <input type="text" name="customer_name" required>
+            </label>
+        </p>
+
+        <p>
+            <label>Phone
+                <input type="tel" name="phone_number">
+            </label>
+        </p>
+
+        <p>
+            <label>SSN
+                <input type="ssn" name="ss_number">
+            </label>
+        </p>
+
+        <fieldset>
+            <legend>Which doctor do you want to see?</legend>
+            <p><label> <input type="radio" name="Robert" required value="cardiologist"> Robert Stevens </label></p>
+            <p><label> <input type="radio" name="Jane" required value="dentist"> Jane Goodall </label></p>
+            <p><label> <input type="radio" name="Doyoung" required value="doctor"> Doyoung Kim </label></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Which speciality are you looking for?</legend>
+            <p><label> <input type="radio" name="Family Medicine" required value="Bob"> Family Medicine </label></p>
+            <p><label> <input type="radio" name="N/A" required value="Fred"> N/A </label></p>
+            <p><label> <input type="radio" name="Pediatrics" required value="Luigi"> Pediatrics </label></p>
+        </fieldset>
+        <p>
+            <label>Appointment Date/Time
+                <input type="datetime-local" name="pickup_time" required>
+            </label>
+        </p>
+
+        <p>
+            <label>Message
+                <textarea name="message" maxlength="500"></textarea>
+            </label>
+        </p>
+
+        <p><button>Make Appointment</button></p>
+        </div>
+
+        <!--Nav Bar-->
+        <div class=home>
         </div>
         <div class=navMenuLayout>
             <div class=navDoctorLayout><span class="navDoctorDesign"><a href="/doctor.html"
@@ -24,12 +74,13 @@
                         style="color: #fff; text-decoration: none;">Pharmacy</a></span></div>
             <div class=topAppointmentButtonLayout>
                 <div class=topAppointmentButtonDesign><span class="topAppointmentButton"><a href="/appointment.html"
-                    style="color: #fff; text-decoration: none;">APPOINTMENT</a></span></div>
+                            style="color: #fff; text-decoration: none;">APPOINTMENT</a></span></div>
             </div>
         </div>
         <div class="tool"></div><span class="DocOffice"><a href="/index.html"
-            style="color: #fff; text-decoration: none;">DocOffice</a></span>
-    </div>
+                style="color: #fff; text-decoration: none;">DocOffice</a></span>
+        </div>
+
 </body>
 
 </html>
